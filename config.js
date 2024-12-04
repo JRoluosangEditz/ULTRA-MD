@@ -6,11 +6,11 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '923444844060';
+const defaultOwner = '917005658594';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
-const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || 'your number';  // put your number here
+const ownervb = process.env.OWNERS || process.env.OWNER_NUMBER || '917005658594';  // put your number here
 
 const ownerlist = ownervb.split(';');
 
@@ -19,13 +19,13 @@ for (let i = 0; i < ownerlist.length; i++) {
     global.owner.push([ownerlist[i], true]);
 }
 //
-global.botname = process.env.BOTNAME || 'ULTRA-MD';
-global.pairingNumber = process.env.BOT_NUMBER || 'your number';  // put your number here
+global.botname = process.env.BOTNAME || 'J Rohluosang Editz';
+global.pairingNumber = process.env.BOT_NUMBER || 'J Rohluosang Editz';  // put your number here
 global.SESSION_ID = process.env.SESSION_ID || 'session id';  // put your session id here
 
 global.mods = []
 global.prems = []
-global.allowed = ['923444844060', '923051391007']
+global.allowed = ['917005658594', '923051391007']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -73,12 +73,12 @@ global.APIKeys = {
 
 // Sticker WM
 global.premium = 'true'
-global.packname = 'GLOBAL-MD'
-global.author = 'GlobalTechInfo'
+global.packname = 'J Rohluosang Editz'
+global.author = 'J Rohluosang Editz'
 global.menuvid = 'https://i.imgur.com/2U2K9YA.mp4'
-global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/global.techinfo'
-global.dygp = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
-global.fgsc = 'https://github.com/GlobalTechInfo/ULTRA-MD'
+global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/ka_ning_ka_kal_dawn'
+global.dygp = 'https://whatsapp.com/channel/https://whatsapp.com/channel/0029VavZK9pCnA7tt0VIkU2t'
+global.fgsc = 'https://https://github.com/JRoluosangEditz/ULTRA-MD/edit/main/config.js'
 global.fgyt = 'https://youtube.com/@GlobalTechInfo'
 global.fgpyp = 'https://youtube.com/@GlobalTechInfo'
 global.fglog = 'https://i.ibb.co/G2dh9cB/qasim.jpg'
@@ -86,10 +86,10 @@ global.thumb = fs.readFileSync('./assets/qasim.jpg')
 
 global.wait = '⏳'
 global.rwait = '⏳'
-global.dmoji = '🤭'
+global.dmoji = '😶‍🌫️'
 global.done = '✅'
 global.error = '❌'
-global.xmoji = '🤩'
+global.xmoji = '😝'
 
 global.multiplier = 69
 global.maxwarn = '3'
